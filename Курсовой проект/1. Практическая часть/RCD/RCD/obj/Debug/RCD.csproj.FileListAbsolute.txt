@@ -95,3 +95,38 @@ C:\Users\Андрей\Desktop\RCD\RCD\obj\Debug\RCD.csproj.CoreCompileInputs.cac
 C:\Users\Андрей\Desktop\RCD\RCD\obj\Debug\RCD.csproj.CopyComplete
 C:\Users\Андрей\Desktop\RCD\RCD\obj\Debug\RCD.exe
 C:\Users\Андрей\Desktop\RCD\RCD\obj\Debug\RCD.pdb
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\bin\Debug\RCD.exe.config
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\bin\Debug\RCD.exe
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\bin\Debug\RCD.pdb
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\bin\Debug\EntityFramework.dll
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\bin\Debug\EntityFramework.xml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.csproj.AssemblyReference.cache
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Exelent.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Home.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Login.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\MainWindow.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Orders.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Reg.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\User.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\App.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD_Content.g.cs
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD_MarkupCompile.cache
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD_MarkupCompile.lref
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Exelent.baml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Home.baml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Login.baml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\MainWindow.baml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Orders.baml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\Reg.baml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\User.baml
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.g.resources
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.Properties.Resources.resources
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.csproj.GenerateResource.cache
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.csproj.CopyComplete
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.exe
+C:\Users\Андрей\Documents\GitHub\Solodyashkin-Andrey-Yurievich-3-1-2022\Курсовой проект\1. Практическая часть\RCD\RCD\obj\Debug\RCD.pdb
