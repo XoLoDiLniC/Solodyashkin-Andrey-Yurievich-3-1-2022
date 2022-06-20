@@ -21,11 +21,16 @@ namespace RCD
     public partial class Orders : Page
     {
         private int idus;
+        private int idd;
+        private int idt;
         private Order _currentorder = new Order();
         public Orders(Order selectedOrder, int id)
         {
+            
             idus = id;
             InitializeComponent();
+            TdeliveryTb.ItemsSource = REntities.GetContext().TypeDeliveries.ToList();
+            TpaymentTb.ItemsSource = REntities.GetContext().Type_pay.ToList();
             if (selectedOrder != null)
             {
                 _currentorder = selectedOrder;
@@ -36,11 +41,30 @@ namespace RCD
 
         private void btnLog_click(object sender, RoutedEventArgs e)
         {
+
+            if (TdeliveryTb.SelectedIndex == 1)
+            {
+                idd = 2;
+            }
+            else
+            {
+                idd = 1;
+            }
+
+            if (TpaymentTb.SelectedIndex == 1)
+            {
+                idt = 2;
+            }
+            else
+            {
+                idt = 1;
+            }
+
             if (_currentorder.Id_Order == 0)
             {
-                Entities1.GetContext().Orders.Add(new Order {Where1 = Where1Tb.Text , Where2 = Where2Tb.Text , id_user = idus ,TypeDil =TdeliveryTb.Text, TypePay = TpaymentTb.Text, What = WhatSendTb.Text});
+                REntities.GetContext().Orders.Add(new Order {Where1 = Where1Tb.Text , Where2 = Where2Tb.Text , id_user = idus , TypeDil = idd , TypePay = idt, What = WhatSendTb.Text});
             }
-            Entities1.GetContext().SaveChanges();
+            REntities.GetContext().SaveChanges();
             MessageBox.Show("Спасибо, что выбрали нашу доставку!!!");
             Manager.MainFrame.Navigate(new User(idus));
         }

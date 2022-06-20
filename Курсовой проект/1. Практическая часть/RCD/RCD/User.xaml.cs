@@ -26,9 +26,9 @@ namespace RCD
             InitializeComponent();
             iduse = id;
            
-            if (Entities1.GetContext().Orders.FirstOrDefault(p => p.id_user == iduse) != null)
+            if (REntities.GetContext().Orders.FirstOrDefault(p => p.id_user == iduse) != null)
             {
-                ListOrd.ItemsSource = Entities1.GetContext().Orders.Where(p => p.id_user == iduse).ToList(); 
+                ListOrd.ItemsSource = REntities.GetContext().Orders.Where(p => p.id_user == iduse).ToList(); 
             }
            
         }
@@ -41,12 +41,12 @@ namespace RCD
 
         private void close_Click(object sender, RoutedEventArgs e)
         {
-            Order order = Entities1.GetContext().Orders.Where(p => p.id_user == iduse).FirstOrDefault();
+            Order order = REntities.GetContext().Orders.Where(p => p.id_user == iduse).FirstOrDefault();
 
-            Entities1.GetContext().Orders.Remove(order);
-            Entities1.GetContext().SaveChanges();
+            REntities.GetContext().Orders.Remove(order);
+            REntities.GetContext().SaveChanges();
             MessageBox.Show("Вы удалили");
-            ListOrd.ItemsSource = Entities1.GetContext().Orders.Where(p => p.id_user == iduse).ToList();
+            ListOrd.ItemsSource = REntities.GetContext().Orders.Where(p => p.id_user == iduse).ToList();
         }
 
         private void Red_Click(object sender, RoutedEventArgs e)

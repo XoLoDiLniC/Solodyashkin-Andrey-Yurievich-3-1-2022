@@ -15,7 +15,13 @@
         <TextBox x:Name="Where1Tb" Text="{Binding Where1}" FontSize="25" Grid.Row="1" Width="300" Height="50" Margin="0,30,0,0" VerticalAlignment="Top"></TextBox>
         <TextBox x:Name="Where2Tb" Text="{Binding Where2}" FontSize="25" Grid.Row="1" Width="300" Height="50" Margin="0,100,0,0" VerticalAlignment="Top"></TextBox>
         <TextBox x:Name="WhatSendTb" Text="{Binding What}" FontSize="25" Grid.Row="1" Width="300" Height="50" Margin="0,00,0,60" VerticalAlignment="Center"/>
-        <TextBox x:Name="TdeliveryTb" Text="{Binding TypeDil}" FontSize="25" Grid.Row="1" Width="300" Height="50" Margin="0,80,0,0" VerticalAlignment="Center"/>
+        <ComboBox x:Name="TdeliveryTb" SelectedItem="{Binding Typedil,Mode=TwoWay}" FontSize="25" Grid.Row="1" Width="300" Height="50" Margin="0,80,0,0" VerticalAlignment="Center">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name_d,Mode=TwoWay}"> </TextBlock> 
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
         <Button x:Name="btnLog"
             Width="300"
             Height="40"
@@ -65,7 +71,13 @@
                 </Style>
             </Button.Style>
         </Button>
-        <TextBox x:Name="TpaymentTb" Text="{Binding TypePay}" FontSize="25" Grid.Row="1" Width="300" Height="50" Margin="0,220,0,0" VerticalAlignment="Center"/>
+        <ComboBox x:Name="TpaymentTb" SelectedItem="{Binding Name}" FontSize="25" Grid.Row="1" Width="300" Height="50" Margin="0,220,0,0" VerticalAlignment="Center">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding NameTD}"></TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
         <TextBlock HorizontalAlignment="Left" Margin="177,46,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Куда" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="177,119,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Откуда" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="157,186,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Что Отправляете" VerticalAlignment="Top"/>

@@ -18,10 +18,12 @@ namespace RCD
         public string Where1 { get; set; }
         public string Where2 { get; set; }
         public string What { get; set; }
-        public string TypeDil { get; set; }
-        public string TypePay { get; set; }
+        public int TypeDil { get; set; }
+        public int TypePay { get; set; }
         public int id_user { get; set; }
     
+        public virtual Type_pay Type_pay { get; set; }
+        public virtual TypeDelivery TypeDelivery { get; set; }
         public virtual Userss Userss { get; set; }
     }
 }

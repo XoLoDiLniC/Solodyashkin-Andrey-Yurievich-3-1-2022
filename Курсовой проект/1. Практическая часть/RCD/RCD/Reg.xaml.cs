@@ -28,11 +28,11 @@ namespace RCD
 
         private void btnLog_click(object sender, RoutedEventArgs e)
         {
-            bool canRegister = Entities1.GetContext().Usersses.All(p => p.Login != LoginTb.Text.Trim());
+            bool canRegister = REntities.GetContext().Usersses.All(p => p.Login != LoginTb.Text.Trim());
             if (canRegister)
             {
-                Entities1.GetContext().Usersses.Add(_currentUser);
-                Entities1.GetContext().SaveChanges();
+                REntities.GetContext().Usersses.Add(_currentUser);
+                REntities.GetContext().SaveChanges();
                 MessageBox.Show("Вы прошли регистрацию");
                 Login login = new Login();
                 login.Show();

@@ -41,11 +41,11 @@ namespace RCD
         }
         public static bool Logining(string email, string pass)
         {
-            return Entities1.GetContext().Usersses.Any(p => p.Login == email && p.Password == pass);
+         return REntities.GetContext().Usersses.Any(p => p.Login == email && p.Password == pass);
         }
         public Userss Log(string email, string pass)
         {
-            return Entities1.GetContext().Usersses.FirstOrDefault(p => p.Login == email && p.Password == pass);
+            return REntities.GetContext().Usersses.FirstOrDefault(p => p.Login == email && p.Password == pass);
         }
 
     }
